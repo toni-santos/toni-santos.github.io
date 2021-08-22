@@ -6,11 +6,11 @@ using the library <a href="https://github.com/Prinzhorn/skrollr">skrollr</a> to 
 
 # TODO:
 
-[x] somewhat functional page :)
-[x] implement horizontal scrolling
-[] responsiveness (\@media queries)
-[] menu for easier browsing
-[] projects page (haven't done enough yet :/)
-[] glowing text
-[] minor animations
-[] glowing socials buttons
+- [x] somewhat functional page :)
+- [x] implement horizontal scrolling
+- [] responsiveness (@media queries)
+- [] menu for easier browsing
+- [] projects page (haven't done enough yet :/)
+- [] glowing text
+- [] minor animations
+- [] glowing socials buttons
