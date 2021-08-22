@@ -8,9 +8,9 @@ using the library <a href="https://github.com/Prinzhorn/skrollr">skrollr</a> to 
 
 - [x] somewhat functional page :)
 - [x] implement horizontal scrolling
-- [] responsiveness (@media queries)
-- [] menu for easier browsing
-- [] projects page (haven't done enough yet :/)
-- [] glowing text
-- [] minor animations
-- [] glowing socials buttons
+- [ ] responsiveness (@media queries)
+- [ ] menu for easier browsing
+- [ ] projects page (haven't done enough yet :/)
+- [ ] glowing text
+- [ ] minor animations
+- [ ] glowing socials buttons
