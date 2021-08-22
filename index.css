@@ -145,35 +145,22 @@ img {
     background-size: cover;
 }
 
+#technologies-wrapper > *:hover {
+    box-shadow: 0 0 0 1000px rgba(16, 14, 15, 0.4) inset;
+    transition: all 0.3s;
+    transform: scale(1.1);
+}
+
 #technologies-html {
     background-image: url("assets/html.png");
-    width: 200px;
-    height: 200px;
-    text-align: center;
-    font-size: 20px;
-}
-
-#technologies-html::before {
-    opacity: 0.5;
-    transition-duration: 1s;
-}
-
-#html-desc {
-    opacity: 0;
-    visibility: hidden;
-    z-index: 3;
-}
-
-#technologies-html::hover #html-desc {
-    opacity: 1;
-    visibility: visible;
-    z-index: 3;
+    width: 150px;
+    height: 150px;
 }
 
 #technologies-css {
     background-image: url("assets/css.png");
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 #technologies-js {
@@ -188,6 +175,10 @@ img {
     height: 176px;
 }
 
+#technologies-cpp > p {
+    margin-top: 75px;
+}
+
 #technologies-python {
     background-image: url("assets/python.png");
     width: 150px;
@@ -200,4 +191,49 @@ img {
     height: 176px;
 }
 
+#technologies-node > p {
+    margin-top: 75px;
+}
+
+#langs-proficiency {
+    position:relative;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
 /* third "page" */
+
+#socials-wrapper {
+    width: 340px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 100px);
+    grid-auto-flow: collumn;
+}
+
+#socials-twt {
+    background-image: url("assets/twitter.png");
+}
+
+#socials-gh {
+    background-image: url("assets/gh.png");
+}
+
+#socials-linkedin {
+    background-image: url("assets/linkedin.png");
+}
+
+.socials-item {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    padding: 0 0 0 0;
+    text-shadow: 0 0 0;
+}
+
+#socials-wrapper > *:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
