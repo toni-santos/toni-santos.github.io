@@ -6,6 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+<<<<<<< HEAD
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -68,3 +69,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+- [x] somewhat functional page :)
+- [x] implement horizontal scrolling
+- [ ] responsiveness (@media queries)
+- [ ] menu for easier browsing
+- [ ] projects page (haven't done enough yet :/)
+- [ ] glowing text
+- [ ] minor animations
+- [ ] glowing socials buttons
+>>>>>>> c8f8dde755449fa5a6de603105ee78d7f4cb9e18
