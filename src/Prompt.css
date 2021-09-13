@@ -1,0 +1,30 @@
+input {
+    background-color:rgba(247, 246, 246, 0);
+    border: none;
+    color: white;
+    display: inline;
+    font-size: 15px;
+    font-family: Ubuntu Mono; 
+    width: 90%;
+    margin-left: 7px;
+    margin-bottom: 7px;
+}
+
+input:focus {
+    outline-width: 0;
+}
+
+#frm {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#comd {
+    padding-left: 10px;
+    margin-top:10px;
+    color: rgba(247, 235, 235, 0.856);
+}
+
+#sugs {
+    margin:0 0 0 17px;
+}
