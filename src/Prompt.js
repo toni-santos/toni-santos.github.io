@@ -16,13 +16,18 @@ function Prompt(props) {
     const [content, setContent] = useState("")
     const [suggestions, setSug] = useState("")
 
-    const {locked, addCommand, clearCommand, cmd, result} = props
+    const {locked, toFocus, setToFocus , addCommand, clearCommand, cmd, result} = props
 
     const myInput = useRef(null)
 
     useEffect(() => {
         if (!locked) myInput.current.scrollIntoView()
-    }, [addCommand, clearCommand, cmd, result, locked])
+        if (toFocus) {
+            myInput.current.focus()
+            setToFocus(false)
+        } 
+
+    }, [addCommand, clearCommand, cmd, result, locked, toFocus, setToFocus])
 
 
     function changeSug(event) {
@@ -68,9 +73,10 @@ function Prompt(props) {
 
         if (event.key === "Enter") {
             
-            setContent("")
             setSug("")
-            const [cmd, part2, part3] = content.split(' ')
+
+            const [cmd, part2, part3] = content.toLowerCase().split(' ')
+            setContent("")
 
             switch (cmd) {
                 case ("cat"):
@@ -158,6 +164,7 @@ function Prompt(props) {
                             onKeyUp={e => {changeSug(e);pressEnter(e);}}
                             onChange={e => setContent(e.target.value)} 
                             value={content} 
+                            autoFocus = "autofocus"
                     />
                     <p id="sugs">{suggestions}</p>
                 </div>
