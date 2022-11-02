@@ -1,7 +1,7 @@
 {
   "homepage": "https://toni-santos.github.io",
   "name": "psite",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",

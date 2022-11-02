@@ -18,13 +18,13 @@ function Neofetch() {
                 <div id="neoDesc">
                     <ul className="neoUl">
                         <li>pronouns: any</li>
-                        <li>age: 19</li>
+                        <li>age: 20</li>
                         <li>from: portugal</li>
                         <li>studying: informatics and computation</li>
                         <li>@: feup</li>
-                        <li>year: 2nd</li>
-                        <li>interests: <a href="https://rateyourmusic.com/~nitox" target="_blank">music</a> <a href="https://myanimelist.net/profile/nixto" target="_blank">anime</a> mmorpgs photography</li>
-                        <li>technologies: python c++ html css js react</li>
+                        <li>year: 3rd</li>
+                        <li>interests: <a href="https://www.last.fm/user/n4gi7o" target="_blank">music</a> mmorpgs photography & game development</li>
+                        <li>technologies: html css js figma react python c++</li>
                     </ul>
                 </div>
             </div>

@@ -8,10 +8,12 @@ input {
     width: 90%;
     margin-left: 7px;
     margin-bottom: 7px;
+    outline: none;
 }
 
 input:focus {
     outline-width: 0;
+    outline: none;
 }
 
 #frm {
